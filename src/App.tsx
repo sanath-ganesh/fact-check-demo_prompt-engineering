@@ -94,16 +94,16 @@ const Quiz = () => {
     return (
       <div className={`mt-4 rounded-lg border p-4 ${isCorrectPick ? "bg-emerald-50 border-emerald-200" : "bg-rose-50 border-rose-200"}`}>
         {isCorrectPick ? (
-          <p className="text-emerald-700 font-medium">Nice catch! "B" is false — it's a myth that the Great Wall is visible unaided from space.</p>
+          <p className="text-emerald-700 font-medium">Nice catch! "B" is false. It's a myth that the Great Wall is visible unaided from space.</p>
         ) : (
           <p className="text-rose-700 font-medium">Not quite. The inaccurate statement is "B". Try again or expand the explanations below.</p>
         )}
         <details className="mt-3">
           <summary className="cursor-pointer text-slate-700">Show explanations</summary>
           <ul className="mt-2 list-disc pl-6 text-slate-700 space-y-1">
-            <li><span className="font-semibold">A</span> — Accurate: Treaty of Versailles was signed in 1919.</li>
-            <li><span className="font-semibold">B</span> — False: Astronauts report it's not visible to the naked eye; photos require telephoto lenses/conditions.</li>
-            <li><span className="font-semibold">C</span> — Accurate: The Amazon River does flow through Brazil.</li>
+            <li><span className="font-semibold">A</span> . Accurate: Treaty of Versailles was signed in 1919.</li>
+            <li><span className="font-semibold">B</span> . False: Astronauts report it's not visible to the naked eye; photos require telephoto lenses/conditions.</li>
+            <li><span className="font-semibold">C</span> . Accurate: The Amazon River does flow through Brazil.</li>
           </ul>
         </details>
       </div>
@@ -163,7 +163,7 @@ export default function FactCheckListBlogDemo() {
         <header className="mb-10">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Fact Check List Pattern</h1>
           <p className="mt-3 text-lg text-slate-700 max-w-3xl">
-            AI can write fast—but not always accurately. The Fact Check List Pattern helps you turn fluent text into <span className="font-semibold">trustworthy</span> prose by breaking claims into small, checkable facts and verifying each one before you publish.
+            AI can write fast, but not always accurately. The Fact Check List Pattern helps you turn fluent text into <span className="font-semibold">trustworthy</span> prose by breaking claims into small, checkable facts and verifying each one before you publish.
           </p>
         </header>
 
